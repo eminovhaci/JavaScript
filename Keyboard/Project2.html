@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <style>
+        .buttons {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+        }
+
+        input {
+            position: relative;
+            left: 45%;
+            margin-top: 5%;
+        }
+
+        p {
+            width: 50%;
+            height: 200px;
+            border: 2px solid black;
+        }
+
+        .spacebar>button {
+            width: 100px;
+            height: 20px;
+        }
+
+        #metn {
+            white-space: pre;
+        }
+    </style>
+    <main>
+        <div class="buttons">
+            <button>Q</button>
+            <button>W</button>
+            <button>E</button>
+            <button>R</button>
+            <button>T</button>
+            <button>Y</button>
+            <button>U</button>
+            <button>I</button>
+            <div class="spacebar">
+                <button class="boslug"> </button>
+            </div>
+        </div>
+    </main>
+
+    <div>
+        <p id="metn"></p>
+        <button id="remove">Remove All</button>
+        <button id="backspace">BackSpace</button>
+        <button id="enter">Enter</button>
+    </div>
+
+    <script src="project2.js"></script>
+</body>
+
+</html>
